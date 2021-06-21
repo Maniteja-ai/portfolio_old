@@ -54,14 +54,14 @@ a {
   display: inline-block;
 }
 .design-pic {
-  width: 40%;
+  width: 25%;
   float: left;
-  padding-right: 20px;
+  margin-right: 30px;
 }
 .ai {
   width: 25%;
   float: right;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 hr {
   height: 0;
