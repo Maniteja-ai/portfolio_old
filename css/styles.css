@@ -1,60 +1,119 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Maniteja</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon"  href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="top-container">
-      <img class="top-cloud" src="images/cloud.png" alt="cloud-png">
-      <h1>I'm Maniteja.</h1>
-      <h2 class="subtitle">a <scope class="pro">pro</scope>grammer.</h2>
-      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-png">
-      <img src="/images/mountain.png" alt="mountain-png">
-    </div>
-    <div class="middle-container">
-      <div class="profile">
-        <img src="images/maniteja.png" alt="profile-picture">
-        <h2>Hello.</h2>
-        <p class="intr">I'm a student in <a href="https://www.svnit.ac.in/">SVNIT</a> university. I ❤ anime and reading books</p>
-      </div>
-      <hr>
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="design-pic" src="images/3d-modeling.png" alt="modeling-img">
-          <h3>modeling using software's</h3>
-          <p>using solidworks , Catia software And also Ansys software for analysis </p>
-        </div>
-        <div class="skill-row">
-          <img class="ai" src="images/machine learning.jpeg" alt="artificial-intelligence-img">
-          <h3>Machine Learning</h3>
-          <p>Basically my background is mechanical. I have recently  started coding.I am enjoying it. I have completed some small project.I have got interest  "AI".
-          Hope I will continue for doing big project</p>
-        </div>
-      </div>
-      <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>CONTACT details</h3>
-        <p>To discussion with me about python and ml. And also  to suggest good anime and book don't hesitate to contact me</p>
-        <a href="https://www.linkedin.com/in/mani-teja-chikkala-719b2b198/" class="BUTTON_DKI">CONTACT ME</a>
-      </div>
-    </div>
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+h1 {
+   margin: 50px auto 0 auto;
+   font-size: 5.625rem;
+   font-family: 'Sacramento', cursive;
+   color: #66BFBF;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding: 10PX auto;
+}
+.top-container {
+  background-color: #E4F9F5;
+  padding: 100px 0;
 
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+a {
+  color: #11999E;
+}
+.subtitle {
+  font-weight: normal;
+}
+.top-cloud {
+  position: absolute;
+  right: 25%;
+  top: 30px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 10%;
+  bottom: 300px;
+}
+.intro {
+  padding-bottom: 10px;
+}
+.pro {
+  text-decoration: underline;
+}
+.skill-row {
+  width: 50%;
+  text-align: left;
+  margin: 50px auto;
+  display: inline-block;
+}
+.design-pic {
+  width: 10%;
+  float: left;
+  margin-right: 30px;
+}
+.ai {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+hr {
+  height: 0;
+  width: 5%;
+  border-style:dotted none none;
+  border-width: 5px;
+  border-color: grey;
+}
+.bottom-container {
+  background-color: #66BFBF;
+  margin: 50px auto 0 auto;
+  height: 150px;
+}
+.footer-link {
+  text-decoration: none;
+  color: #11999E;
+  margin: auto 20px auto 20px ;
+  position: relative;
+  top: 40px;
+}
+.name {
+  color: #EAF6F6;
+  position: relative;
+  top: 40px;
+}
+.BUTTON_DKI {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
 
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/mani-teja-chikkala-719b2b198/">LinkedIn</a>
-      <a class="footer-link" href="https://www.linkedin.com/in/mani-teja-chikkala-719b2b198/">Twitter</a>
-      <a class="footer-link" href="https://www.instagram.com/mani_tejach/">instagram</a></a>
-      <p class="name">@ 2021 Maniteja chikkala</p>
-    </div>
-
-
-  </body>
-</html>
+.BUTTON_DKI:hover  {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.contact-me p  {
+  width: 40%;
+  margin: 40px auto 60px;
+}
